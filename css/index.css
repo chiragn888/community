@@ -1,0 +1,101 @@
+body {
+  background: #F2F2F2;
+  margin: 0;
+  font-family: 'Poppins';
+}
+
+.navbar {
+  background-color: white;
+  padding: 1em;
+}
+
+.navbar .stack {
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+  font-size: 1.2em;
+}
+
+.navbar .stack span {
+  color: orangered;
+  font-weight: bolder;
+  font-size: 1.4em;
+}
+
+.navbar nav {
+  display: none;
+}
+
+.navbar .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  place-content: space-between;
+}
+
+a {
+  color: #444;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  padding: 5em;
+}
+
+.hero {
+  text-align: center;
+}
+
+.left-col .subhead {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: gray;
+  letter-spacing: .3m;
+}
+
+.left-col h1 {
+  font-size: 2.5em;
+  line-height: 1.3em;
+  margin-top: .2em;
+}
+
+.left-col h1 span {
+  color: orangered;
+  font-size: 1.5em;
+  font-weight: bolder;
+}
+
+.left-col .primary-cta {
+  background: orangered;
+  color: white;
+  text-decoration: none;
+  padding: .6em 1.3em;
+  font-size: 1.4em;
+  border-radius: 05em;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.left-col .Join-Today-cta {
+  background: orangered;
+  color: white;
+  text-decoration: none;
+  padding: .6em 1.3em;
+  font-size: 1.4em;
+  border-radius: 05em;
+  font-weight: bold;
+  display: inline-block;
+  margin-left: 1em;
+}
+
+.left-col .img1 {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+/*# sourceMappingURL=index.css.map */
